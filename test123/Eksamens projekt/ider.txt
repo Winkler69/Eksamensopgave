@@ -1,0 +1,145 @@
+When you refuse to reuse its the earth you abuse.
+
+recycle today, for at better tomorrow
+
+
+
+forside med stort billede af mange forkskellige landskaber  ( smuke natur i form af hav og andre ting) som er et slide show og så en kort tekts
+
+
+    background-repeat: no-repeat;
+    transition: 15s;
+
+    animation-name: animate;
+    animation-direction:alternate-reverse;
+    animation-duration: 60s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animate{
+    0%
+    {
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/mountain\ purple.jpg);
+    }
+    20%
+    {
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/blue\ lake.jpg);
+    }
+    40%
+    {
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/red\ lake.jpg);
+    }
+    60%
+    {
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/tianzi.jpg);
+    }
+    80%
+    {
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/winter.jpg);
+    }
+    100%
+    {
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/mountain\ purple.jpg);
+    }
+}
+ <div class="card card1">
+                    <h5>Konkurrence</h5>
+                    <p> I denne uge udlove vi en Genbrugt Ipad til en tilfældig som
+                         har været inde og delt en af deres miljø venlige historie
+                    </p>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+        <section id="footer">
+            <div class="footer1">
+                <h4>OM REFURB</h4>
+                <p>Hos Refurb er vi båret af, at alle skal <br>
+                     vinde. Vi tror på, at du vinder ved at få <br>
+                      et kvalitetsprodukt til en bedre pris – <br>
+                       det vinder miljøet helt sikkert på, og vi <br>
+                        vinder, når du er tilfreds. Derfor <br>
+                     arbejder vi ud fra en vision om at gøre <br>
+                      en forskel.</p>
+                      <img src="photos/footerlogos.png" alt="logo">
+            </div>
+            <div class="footer2">
+                <h4>
+                    REFURB
+                </h4>
+                <ul class="no-bullets">
+                    <li>Om Refurb</li>
+                    <li>Miljø</li>
+                    <li>Job og karriere</li>
+                    <li>Presse</li>
+                    <li>Blog</li>
+                </ul>
+                <h4 id="bærbare">
+                    BÆRBARE
+                </h4>
+                <ul class="no-bullets">
+                    <li>Dell bærbare</li>
+                    <li>HP bærbare</li>
+                    <li>Lenovo bærbare</li>
+                    <li>Apple bærbare</li>
+                    <li>Skole- og studie bærbare</li>
+                    <li>Alle bærbare</li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <h4>
+                    KUNDESERVICE
+                </h4>
+                <ul class="no-bullets">
+                    <li>Kontakt os</li>
+                    <li>Reklamation og retur</li>
+                    <li>Levering og afhentning</li>
+                    <li>Garanti og forsikring</li>
+                    <li>FAQ</li>
+                    <li>Digital Computervælger</li>
+                </ul>
+                <h4>
+                    STATIONÆRE
+                </h4>
+                <ul class="no-bullets">
+                    <li>Dell stationære</li>
+                    <li>HP stationære</li>
+                    <li>Lenovo stationære</li>
+                    <li>Stationære Gamer PC'er</li>
+                    <li>Alle stationære PC'er</li>
+                </ul>
+            </div>
+            <div class="footer4">
+                <h4>
+                    ERHVERV
+                </h4>
+                <ul class="no-bullets">
+                    <li>Sælg til os</li>
+                    <li>Køb af os</li>
+                    <li>Serviceydelser</li>
+                    <li>IT til undervisningen</li>
+                </ul>
+                <h4>
+                    NYTTIG INFORMATION
+                </h4>
+                <ul class="no-bullets">
+                    <li>Cookiepolitik</li>
+                    <li>Persondatapolitik</li>
+                    <li>Handelsbetingelser</li>
+                    <li>Finansiering og afbetaling</li>
+                    <li>IT-ordbog</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
